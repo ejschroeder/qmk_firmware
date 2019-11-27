@@ -15,7 +15,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
                                                         C(KC_C),  C(KC_V), 
                                                                   KC_HOME, 
-                                              KC_SPC,  KC_BSPC,   KC_END, 
+                                              KC_SPC,   KC_ENT,   KC_END, 
     // Right Hand
     KC_EQL,   KC_6,     KC_7,   KC_8,     KC_9,     KC_0,     KC_MINS, 
     KC_RBRC,  KC_Y,     KC_U,   KC_I,     KC_O,     KC_P,     KC_BSLS, 
@@ -25,7 +25,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     
     C(KC_X),  C(KC_SLSH), 
     KC_PGUP, 
-    KC_PGDN,  KC_DEL,  KC_ENT
+    KC_PGDN,  KC_DEL,  KC_BSPC
   ),
 
 	[UTIL] = LAYOUT_ergodox(
