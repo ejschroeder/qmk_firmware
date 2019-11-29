@@ -25,7 +25,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     
     C(KC_X),  C(KC_SLSH), 
     KC_PGUP, 
-    KC_PGDN,  KC_DEL,   KC_SFTENT
+    KC_PGDN,  KC_DEL,   LCTL_T(KC_ENTER)
   ),
 
 	[UTIL] = LAYOUT_ergodox(
