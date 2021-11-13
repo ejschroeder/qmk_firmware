@@ -146,6 +146,74 @@
  */
 #define USSR_ANTHEM B__NOTE(_G6), B__NOTE(_C7), W__NOTE(_G6), H__NOTE(_A6), B__NOTE(_B6), W__NOTE(_E6), W__NOTE(_E6), B__NOTE(_A6), W__NOTE(_G6), H__NOTE(_F6), B__NOTE(_G6), W__NOTE(_C6), W__NOTE(_C6), B__NOTE(_D6), W__NOTE(_D6), W__NOTE(_E6), B__NOTE(_D6), W__NOTE(_D6), W__NOTE(_G6), B__NOTE(_F6), W__NOTE(_G6), W__NOTE(_A6), B__NOTE(_B6),
 
+#define RICK_ROLL Q__NOTE(_F4), Q__NOTE(_G4), Q__NOTE(_BF4), Q__NOTE(_G4), HD_NOTE(_D5), HD_NOTE(_D5), W__NOTE(_C5), S__NOTE(_REST), Q__NOTE(_F4), Q__NOTE(_G4), Q__NOTE(_BF4), Q__NOTE(_G4), HD_NOTE(_C5), HD_NOTE(_C5), W__NOTE(_BF4), S__NOTE(_REST), Q__NOTE(_F4), Q__NOTE(_G4), Q__NOTE(_BF4), Q__NOTE(_G4), W__NOTE(_BF4), H__NOTE(_C5), H__NOTE(_A4), H__NOTE(_A4), H__NOTE(_G4), H__NOTE(_F4), H__NOTE(_F4), W__NOTE(_C5), W__NOTE(_BF4),
+
+#define COIN_SOUND E__NOTE(_A5),  \
+    HD_NOTE(_E6),  \
+
+#define ZELDA_PUZZLE Q__NOTE(_G5),     \
+    Q__NOTE(_FS5),    \
+    Q__NOTE(_DS5),    \
+    Q__NOTE(_A4),     \
+    Q__NOTE(_GS4),    \
+    Q__NOTE(_E5),     \
+    Q__NOTE(_GS5),    \
+    HD_NOTE(_C6),     \
+
+#define ZELDA_CHEST Q__NOTE(_G5),   \
+    Q__NOTE(_A5),   \
+    Q__NOTE(_B5),   \
+    Q__NOTE(_CS6),  \
+    Q__NOTE(_G5),   \
+    Q__NOTE(_A5),   \
+    Q__NOTE(_B5),   \
+    Q__NOTE(_CS6),  \
+    Q__NOTE(_GS5),  \
+    Q__NOTE(_AS5),  \
+    Q__NOTE(_C6),   \
+    Q__NOTE(_D6),   \
+	Q__NOTE(_GS5),  \
+    Q__NOTE(_AS5),  \
+    Q__NOTE(_C6),   \
+    Q__NOTE(_D6),   \
+	Q__NOTE(_A5),   \
+    Q__NOTE(_B5),   \
+    Q__NOTE(_CS6),  \
+	Q__NOTE(_DS6),  \
+	Q__NOTE(_A5),   \
+    Q__NOTE(_B5),   \
+    Q__NOTE(_CS6),  \
+	Q__NOTE(_DS6),  \
+	Q__NOTE(_AS5),  \
+    Q__NOTE(_C6),   \
+    Q__NOTE(_D6),   \
+	Q__NOTE(_E6),   \
+	Q__NOTE(_AS5),  \
+    Q__NOTE(_C6),   \
+    Q__NOTE(_D6),   \
+	Q__NOTE(_E6),   \
+	Q__NOTE(_B5),   \
+    Q__NOTE(_CS6),  \
+    Q__NOTE(_DS6),  \
+	Q__NOTE(_F6),   \
+	Q__NOTE(_C6),   \
+    Q__NOTE(_D6),   \
+    Q__NOTE(_E6),   \
+	Q__NOTE(_FS6),  \
+	Q__NOTE(_CS6),  \
+    Q__NOTE(_DS6),  \
+    Q__NOTE(_F6),   \
+	Q__NOTE(_G6),   \
+    Q__NOTE(_D6),   \
+    Q__NOTE(_E6),   \
+	Q__NOTE(_FS6),  \
+	Q__NOTE(_GS6),  \
+	S__NOTE(_REST), \
+	Q__NOTE(_A6),   \
+    Q__NOTE(_AS6),  \
+    Q__NOTE(_B6),   \
+    HD_NOTE(_C7),
+
 /* Removed sounds
  +   This list is here solely for compatibility, so that removed songs don't just break things
  *   If you think that any of these songs were wrongfully removed, let us know and provide
