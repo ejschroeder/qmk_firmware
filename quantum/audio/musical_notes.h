@@ -17,7 +17,7 @@
 #pragma once
 
 // Tempo Placeholder
-#define TEMPO_DEFAULT 100
+#define TEMPO_DEFAULT 200
 
 #define SONG(notes...) \
     { notes }
