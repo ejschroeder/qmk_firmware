@@ -16,10 +16,8 @@
  */
 #pragma once
 
-#ifndef TEMPO_DEFAULT
-#    define TEMPO_DEFAULT 120
-// in beats-per-minute
-#endif
+// Tempo Placeholder
+#define TEMPO_DEFAULT 200
 
 #define SONG(notes...) \
     { notes }
